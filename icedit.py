@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 import sys,math
 from openbabel import pybel
 from openbabel import openbabel
