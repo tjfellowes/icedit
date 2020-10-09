@@ -29,7 +29,7 @@ except:
 
 # Edit bond length
 if len(sys.argv) == 6:
-    a1 = a1=mol.OBMol.GetAtom(int(sys.argv[3]))
+    a1 = mol.OBMol.GetAtom(int(sys.argv[3]))
     a2 = mol.OBMol.GetAtom(int(sys.argv[4]))
     parameter = float(sys.argv[5])
     mol.OBMol.GetBond(a1,a2).SetLength(a1,parameter)
