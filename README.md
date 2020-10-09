@@ -6,3 +6,5 @@ It takes as arguments an input file, output file, 2-4 atom indices (which define
 
 e.g. $ icedit input.mol2 output.mol2 1 2 11 12 80.0
 will set the dihedral defined by atoms 1, 2, 11 and 12 to 80 degrees.
+
+Requires the openbabel python bindings, which you might need to compile yourself. Tested with python2.7 and openbabel3.0.0.
